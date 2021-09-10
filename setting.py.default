@@ -1,0 +1,10 @@
+
+BROWSER = 'chrome'
+EMAIL_LOGIN = ''
+EMAIL_PASSWORD = ''
+NUMBER_EXPECTED_MAILS = 5
+PORT_GRID = '4444'
+RECIPIENTS_EMAILS = [EMAIL_LOGIN + '@yandex.ru']
+SUBJECT_MAIL_TO_SEARCH = 'Simbirsoft Тестовое задание'
+SURE_NAME = 'Донцов'
+URL_SITE = 'https://mail.yandex.ru'
