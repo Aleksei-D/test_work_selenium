@@ -1,3 +1,5 @@
+
+import allure
 from selenium import webdriver
 from selenium.common.exceptions import InvalidSelectorException
 
@@ -8,6 +10,7 @@ class BasePage:
         self.url = url
         self.browser.implicitly_wait(timeout)
 
+    @allure.step(f'Page opening test')
     def open(self):
         self.browser.get(self.url)
 
